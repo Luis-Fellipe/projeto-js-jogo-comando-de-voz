@@ -1,0 +1,97 @@
+@import url('reset.css');
+
+body {
+    background-color: #b30000;
+}
+
+header {
+    background-color: #dddddd;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 0 40px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+#pontuacao-game {
+    background-color: #61b1ea;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    padding: 5px 50px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+#nome-jogo {
+    font-weight: bolder;
+    font-size: 1.68rem;
+}
+
+#corpo {
+    display: flex;
+    margin-top: 15px;
+}
+
+#corpo #esquerda {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+#corpo #esquerda h3 {
+    font-size: 1.5rem;
+}
+
+#corpo #esquerda span {
+    font-size: 1.3rem;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+
+#corpo #esquerda #cor-atual {
+    width: 200px;
+    height: 200px;
+    border: 10px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#corpo #esquerda #btn-responder {
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 15px 65px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(26, 26, 32);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+

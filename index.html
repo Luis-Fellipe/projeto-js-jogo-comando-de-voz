@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo comando de voz</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/icone.png" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <header id="header">
+            <div id="pontuacao-game">
+                <img src="img/moeda.png" height="20px" alt="">
+                Moedas: <span id="pontuacao-atual">0</span>
+            </div>
+
+            <div id="nome-jogo">
+                Super Mario English Challenge
+            </div>
+        </header>
+
+        <section id="corpo">
+            <div id="esquerda">
+                <h3>FALE O NOME DA COR EM INGLÊS</h3>
+                <span id="cor-na-caixa"></span>
+                <div id="cor-atual">
+
+                </div>
+                <button type="button" id="btn-responder">RESPONDER</button>
+            </div>
+            <div id="direita">
+                <img src="img/mario.png" height="390px" alt="">
+            </div>
+        </section>
+        <footer>
+            <img src="img/logo-dio.png" height="90px" alt="">
+        </footer>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
