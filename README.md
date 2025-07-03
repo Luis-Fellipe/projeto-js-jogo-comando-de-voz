@@ -13,8 +13,10 @@ No jogo, o jogador deve **dizer corretamente o nome da cor em inglês** que apar
 > *Imagem ilustrativa da versão desktop do jogo.*
 
 ### Versão Mobile
-![Prévia Mobile](img/preview-cell.png)
-> *Imagem ilustrativa da versão mobile do jogo.*
+<div align="center">
+  <img src="img/preview-cell.png" alt="Prévia Mobile" width="250px">
+  <p><em>Imagem ilustrativa da versão mobile do jogo.</em></p>
+</div>
 
 ## 🚀 Funcionalidades
 
