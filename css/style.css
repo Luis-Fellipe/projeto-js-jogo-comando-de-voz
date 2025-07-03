@@ -95,3 +95,29 @@ footer {
     height: 180px;
 }
 
+@media screen and (max-width: 721px) {
+    header {
+        height: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px 10px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #corpo {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15px;
+        gap: 25px;
+        text-align: center;
+    }
+    
+    #esquerda h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    #esquerda #cor-atual {
+        margin-bottom: 0.5rem;
+    }
+}
